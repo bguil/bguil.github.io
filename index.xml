@@ -6,9 +6,20 @@
     <description>Recent content on Cayman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 26 Apr 2020 16:39:26 +0200</lastBuildDate>
     
 	<atom:link href="https://bguil.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Test</title>
+      <link>https://bguil.github.io/test/</link>
+      <pubDate>Sun, 26 Apr 2020 16:39:26 +0200</pubDate>
+      
+      <guid>https://bguil.github.io/test/</guid>
+      <description>a test page test!!!
+new line 4211</description>
+    </item>
     
   </channel>
 </rss>
