@@ -6,10 +6,29 @@
     <description>Recent content on Cayman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Apr 2020 16:39:26 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2020 17:45:38 +0200</lastBuildDate>
     
 	<atom:link href="https://bguil.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Comp_cleft</title>
+      <link>https://bguil.github.io/guidelines/u/relations/comp_cleft/</link>
+      <pubDate>Tue, 28 Apr 2020 10:38:53 +0200</pubDate>
+      
+      <guid>https://bguil.github.io/guidelines/u/relations/comp_cleft/</guid>
+      <description>comp:cleft The comp:cleft relation is used in cleft sentences for the dependency from the head of the sentence to the head of the complement clause.
+  1	It	it	PRON	_	_	2	subj	_	_ 2	was	be	AUX	_	_	0	root	_	_ 3	from	from	ADP	_	_	2	comp:pred	_	_ 4	John	John	PROPN	_	_	3	comp:obj	_	_ 5	that	that	SCONJ	_	_	2	comp:cleft	_	_ 6	she	she	PRON	_	_	7	subj	_	_ 7	heard	hear	VERB	_	_	5	comp:obj	_	_ 8	the	the	DET	_	_	9	det	_	_ 9	news	news	NOUN	_	_	7	comp:obj	_	_   Sometimes, there is an ambiguity between a relative clause and a cleft clause.</description>
+    </item>
+    
+    <item>
+      <title>A</title>
+      <link>https://bguil.github.io/a/</link>
+      <pubDate>Sun, 26 Apr 2020 23:31:23 +0200</pubDate>
+      
+      <guid>https://bguil.github.io/a/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Test</title>
