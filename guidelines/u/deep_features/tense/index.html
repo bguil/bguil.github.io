@@ -21,7 +21,7 @@
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
 
-  <title>Guidelines | Cayman</title>
+  <title> | Cayman</title>
 
   
   <link rel="stylesheet" href="/css/local.css">
@@ -80,8 +80,23 @@
 
   <section class="main-content">
     
-  <h1>Guidelines</h1>
-  
+  <h1></h1>
+  <h1 id="tense"><strong>@tense</strong></h1>
+<p>The <code>@tense</code> feature is used for the argument of tense auxiliaries.</p>
+<div>
+<conll>
+
+1	This	this	PRON	_	_	2	subj	_	_
+2	is	be	AUX	_	_	0	root	_	_
+3	money	money	NOUN	_	_	2	comp:aux@pass	_	_
+4	you	you	PRON	_	_	5	subj	_	_
+5	've	have	AUX	_	_	3	mod@relcl	_	_
+6	earned	earn	VERB	_	_	5	comp:aux@tense	_	_
+
+</conll>
+</div>
+
+
 
   </section>
   
