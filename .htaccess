@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} ^bguil.github.io
+RewriteRule ^(.*) https://grew.fr/$1 [P]
