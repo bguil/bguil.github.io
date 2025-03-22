@@ -5,8 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redirecting...</title>
     <script>
-        // Redirect to the new URL
-        window.location.replace("https://grew.fr");
+        // Get the current path
+        var currentPath = window.location.pathname;
+
+        // Define the new base URL
+        var newBaseUrl = "https://grew.fr";
+
+        // Redirect to the new URL, appending the current path
+        window.location.replace(newBaseUrl + currentPath);
     </script>
 </head>
 <body>
