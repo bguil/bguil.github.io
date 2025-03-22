@@ -1,2 +1,8 @@
-RewriteCond %{HTTP_HOST} ^bguil.github.io
-RewriteRule ^(.*) https://grew.fr/$1 [P]
+# RewriteCond %{HTTP_HOST} ^bguil.github.io
+# RewriteRule ^(.*) https://grew.fr/$1 [P]
+
+# Enable the RewriteEngine
+RewriteEngine On
+
+# Redirect to the new URL without changing the visitor's URL
+RewriteRule ^bguil.github.io/(.*)$ http://https://grew.fr/$1 [P,L]
